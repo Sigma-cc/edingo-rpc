@@ -3,16 +3,19 @@ const rpc_client = new rpc.Client({
     transport: 'ipc'
 })
 
-function value_id(id){
-    return `${$(`#${id}`).val().toString()}`
-}
-function value_id_valid(id){
-    return (`${$(`#${id}`).val().toString()}` != '')
-}
 const $ = require( "jquery" );
 function on_update(){
 
     var presense = {assets : {}, timestamps : {}};
+
+    function value_id(id){
+        return `${$(`#${id}`).val().toString()}`
+    }
+    function value_id_valid(id){
+        return (`${$(`#${id}`).val().toString()}` != '')
+    }
+
+    //How to optimize this?
     if (value_id_valid('state')){
         presense.state = value_id('state');
     };
@@ -46,9 +49,7 @@ function on_update(){
 }
 
 function on_connect(){
-    let idd = '807280683633475585'
-    //`${$('#appid').val()}`
-    rpc_client.login({clientId: idd}).then(() => {
+    rpc_client.login({clientId: $('#appid').val().toString()).then(() => {
         $("#panel :input").toArray().forEach(element => element.disabled = false)
     }).catch((error) => {
         alert(`Invalid Connection!\nReason:\n${error}`);
