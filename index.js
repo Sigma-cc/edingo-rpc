@@ -6,16 +6,16 @@ const {app, BrowserWindow} = require('electron');
 let win;
 function createWindow(){
     win = new BrowserWindow({
-        width: 400,
-        height: 560,
-        titleBarStyle: 'hidden',
-        resizable: false,
+        width: 500,
+        height: 800,
+        //resizable: false,
         webPreferences: {
             nodeIntegration: true,
-          }
+          },
+          transparent: true
     });
     win.loadURL(`file://${__dirname}/index.html`);
-    
+    win.setMenu(null);
     //win.webContents.openDevTools();
     
     win.on('closed', ()=>{
