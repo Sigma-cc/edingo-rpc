@@ -49,7 +49,7 @@ function on_update(){
 }
 
 function on_connect(){
-    rpc_client.login({clientId: $('#appid').val().toString()).then(() => {
+    rpc_client.login({clientId: $('#appid').val().toString()}).then(() => {
         $("#panel :input").toArray().forEach(element => element.disabled = false)
     }).catch((error) => {
         alert(`Invalid Connection!\nReason:\n${error}`);
