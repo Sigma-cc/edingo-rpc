@@ -16,5 +16,5 @@ npm start
 3. more info in readme ;) 
 
 # Preview: 
-![](https://media.discordapp.net/attachments/805328199696384010/807661353875537950/unknown.png?width=484&height=670)
+![](https://media.discordapp.net/attachments/805328199696384010/807711549430038548/unknown.png?width=469&height=669)
 
