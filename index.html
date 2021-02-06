@@ -2,35 +2,56 @@
 <html lang="en">
 <head>
     <title>https://github.com/Sigma-cc/edingo-rpc</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel=stylesheet href=style.css>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/rpc-module.js"></script>
+    
 </head>
 <body>
-    <h1>Edingo RPC</h1>
-    <div>
-        <div>
-            <a>Input Application ID<br>
-                <input id = "appid"><br>
-                <button onclick="on_connect()" id = "conenct">Connect</button>
-            </a><br><br>
-        </div>
-        <div id = "panel">
-            <a>Detalis:<input id = "details"></a><br>
-            <a>State:<input id = "state"></a><br><br>
-            <a>Large Image: <input id = "large_image"></a><br>
-            <a>Large Image Text:<input id = "large_image_text"></a><br><br>
-            <a>Small Image:<input id = "smal_image"></a><br>
-            <a>Small Image Text:<input id = "smal_image_text"></a><br><br>
-            <a>Start Time:<input id = "start_time"></a><br>
-            <a>End Time:<input id = "end_time"></a><br>
-            <button onclick="on_update()" id = "update">Update</button>
-        </div>
-    </div>
-    <script>
-        $("#panel :input").toArray().forEach(element => element.disabled = true);
-        require('./render.js');
-    </script>
+  <div class="glitch-wrapper">
+    <div class="glitch" data-text="Edingo RPC">Edingo RPC</div>
+  </div>
+  <div class="form__group field">
+    <input id = "appid" type="input" class="form__field" required/>
+    <label  for =  "name" class="form__label">Application ID</label>
+  </div>
+  <button onclick="on_connect()">Connect</button>
+  <div class="form__group field"> 
+    <input id = "state" type="input" class="form__field" required/>
+    <label  for =  "name" class="form__label">State</label>
+  </div>
+  <div class="form__group field">
+    <input id = "details" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">Details</label>
+  </div>
+  <div class="form__group field">
+    <input id = "large_image" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">Large Image</label>
+  </div>
+  <div class="form__group field">
+    <input id = "large_image_text" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">Large Image Text</label>
+  </div>
+  <div class="form__group field">
+    <input id = "smal_image" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">Small Image</label>
+  </div>
+  <div class="form__group field">
+    <input id = "smal_image_text" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">Small Image Text</label>
+  </div>
+  <div class="form__group field">
+    <input id = "start_time" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">Start Time</label>
+  </div>
+  <div class="form__group field">
+    <input id = "end_time" type="input" class="form__field" required/>
+    <label for =  "name" class="form__label">End Time</label>
+  </div>
+  <button onclick="on_update()">Submit</button>
+
+  <script>
+    require('./render.js');
+</script>
 </body>
 </html>
