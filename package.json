@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "test": "electron tests/main.js "
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "discord-rpc": "^3.1.4",
-    "electron": "^11.2.3"
+    "electron": "^11.2.3",
+    "jquery": "^3.5.1"
   }
 }
