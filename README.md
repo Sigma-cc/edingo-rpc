@@ -17,9 +17,9 @@
 After installing the modules and creating, run the program by write `npm start` to console.
 
 # Preview:
-### Customization Preview:
+## Customization Preview:
 ![](./etc/preview.gif)
-### Menu 
+## Menu:
 ![](./etc/menu.png)
 # Fields:
 ```
