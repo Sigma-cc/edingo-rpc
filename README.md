@@ -25,12 +25,6 @@
 # Running:
 After installing the modules and creating, run the program by write `npm start` to console.
 
-
-# Preview:
-## Customization Preview:
-![](./etc/preview.gif)
-## Menu Preview:
-![](./etc/menu.png)
 # Fields:
 ```
 State (string) - the 'state' section of the rich game data.
@@ -55,3 +49,9 @@ Small Image Text (string) - the small image tooltip.
 Button Label (string) - label of the button.
 Button Link (string) - link of the button.
 ```
+
+# Preview:
+## Customization Preview:
+![](./etc/preview.gif)
+## Menu Preview:
+![](./etc/menu.png)
