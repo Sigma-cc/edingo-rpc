@@ -6,8 +6,8 @@ const {app, BrowserWindow} = require('electron');
 let win;
 function createWindow(){
     win = new BrowserWindow({
-        width: 890,
-        height: 600,
+        width: 880,
+        height: 770,
         resizable: false,
         webPreferences: {
             nodeIntegration: true,
@@ -15,7 +15,7 @@ function createWindow(){
           transparent: true
     });
     win.loadURL(`file://${__dirname}/index.html`);
-    //win.setMenu(null);
+    win.setMenu(null);
     //win.webContents.openDevTools();
     
     win.on('closed', ()=>{
