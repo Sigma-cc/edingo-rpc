@@ -111,8 +111,8 @@ function get_presence(){
     if ($("#buttons").children("div").toArray().length > 0){
         presense.buttons = [];
         $("#buttons").children("div").toArray().forEach(element => {
-            var btn_label = element.children.item(1).value.toString().replace(/\s/g, "");
-            var btn_link = element.children.item(4).value.toString().replace(/\s/g, "");
+            var btn_label = element.children.item(1).value.toString();
+            var btn_link = element.children.item(4).value.toString();
             if (btn_label != '' && btn_link != ''){
                 presense.buttons.push({label: btn_label, url: btn_link});
             }
@@ -141,5 +141,3 @@ function set_presense(){
         alert(`Invalid Update!\nReason:\n${error}`);
     });
 }
-
-
