@@ -4,6 +4,11 @@
 * Ability to add buttons to your profile!
 
 # Usage:
+## Windows
+1. Download the latest version `edingo` from (releases)[https://github.com/Sigma-cc/edingo-rpc/releases](app-win32-x64.rar)
+2. Unpack the `app-win32-x64.rar` then run `edingo.exe`.
+
+## Linux / Windows
 1. Install all required components
     - Download / Clone this repository.
     - [Install node.js if you don't have it.](https://nodejs.org/en/download/)
@@ -12,9 +17,9 @@
 2. Create Rich Presence application with discord
     - Go to your [applications](https://discordapp.com/developers/applications/me).
     - Make a new application `The name of the app will be the main name for the rich presence`.
-
 # Running:
 After installing the modules and creating, run the program by write `npm start` to console.
+
 
 # Preview:
 ## Customization Preview:
