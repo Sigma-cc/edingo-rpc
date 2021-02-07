@@ -32,8 +32,8 @@ Time is indicated in unix -> [Time calculator](https://www.unixtimestamp.com/ind
 <p>Large Image Asset `(string)` - the large image.</p>
 <p>Small Image Asset `(string)` - the small image.</p>
 
-<p>Large Image Text `(string)` - the large image tooltip.</p>
-<p>Small Image Text `(string)` - the small image tooltip.</p>
+<p>Large Image Text `(string)` - the large image tooltip.
+Small Image Text `(string)` - the small image tooltip.</p>
 
-<p>Button Label `(string)` - label of the button.</p>
-<p>Button Link `(string)` - link of the button.</p>
+<p>Button Label `(string)` - label of the button.
+Button Link `(string)` - link of the button.</p>
