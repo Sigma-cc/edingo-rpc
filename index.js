@@ -15,7 +15,7 @@ function createWindow(){
           transparent: true
     });
     win.loadURL(`file://${__dirname}/index.html`);
-    win.setMenu(null);
+    //win.setMenu(null);
     //win.webContents.openDevTools();
     
     win.on('closed', ()=>{
