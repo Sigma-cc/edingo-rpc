@@ -51,7 +51,8 @@ Button Link (string) - link of the button.
 ```
 
 # Preview:
-## Customization Preview:
-![](./etc/preview.gif)
 ## Menu Preview:
 ![](./etc/menu.png)
+
+## Customization Preview(old menu theme):
+![](./etc/preview.gif)
