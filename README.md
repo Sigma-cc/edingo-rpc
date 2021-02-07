@@ -19,9 +19,9 @@ After installing the modules and creating, run the program by write `npm start` 
 # Preview:
 ## Customization Preview:
 ![](./etc/preview.gif)
-## Menu:
+## Menu Preview:
 ![](./etc/menu.png)
-# Fields Preview:
+# Fields:
 ```
 State (string) - the 'state' section of the rich game data.
 Details (string) - the 'details' section of the rich game data.
