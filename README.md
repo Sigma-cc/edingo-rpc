@@ -5,7 +5,7 @@
 
 # Usage:
 ## Windows
-1. Download the latest version `edingo` from (releases)[https://github.com/Sigma-cc/edingo-rpc/releases] (app-win32-x64.rar)
+1. Download the latest version `edingo` from [releases](https://github.com/Sigma-cc/edingo-rpc/releases) (app-win32-x64.rar)
 2. Unpack the `app-win32-x64.rar` then run `edingo.exe`.
 
 ## Linux / Windows
