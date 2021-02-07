@@ -16,7 +16,7 @@
 # Running:
 After installing the modules and creating, run the program by write `npm start` to console.
 
-# Preview
+# Preview:
 ![](./etc/preview.gif)
 
 # Fields:
