@@ -21,3 +21,4 @@ After installing the modules and creating, run the program by write `npm start` 
 
 # Fields:
 State `(string)` - the 'state' section of the rich game data.
+Details `(string)` - the 'details' section of the rich game data.
