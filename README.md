@@ -52,7 +52,7 @@ Button Link (string) - link of the button.
 
 # Preview:
 ## Menu Preview:
-![](./etc/menu.png)
+![](./img/menu.png)
 
 ## Customization Preview(old menu theme):
-![](./etc/preview.gif)
+![](./img/preview.gif)
