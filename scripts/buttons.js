@@ -12,3 +12,7 @@ function add_button(){
 function remove_button(btn){
     $(btn).parent().remove();
 }
+function openGit(){
+  var shell = require('electron').shell;
+  shell.openExternal('https://github.com/Jansy-cc/edingo-rpc/');
+}
