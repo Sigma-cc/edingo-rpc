@@ -54,5 +54,5 @@ Button Link (string) - link of the button.
 ## Menu Preview:
 ![](./img/menu.png)
 
-## Customization Preview(old menu theme):
+## Customization Preview:
 ![](./img/preview.gif)
