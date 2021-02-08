@@ -3,6 +3,11 @@
   font-style: normal;
   src: url(https://fonts.gstatic.com/s/archivoblack/v10/HTxqL289NzCGg4MzN6KJ7eW6CYyF-w.ttf) format('truetype');
 }
+.pd {
+  margin-left: 1px;
+  margin-top: 5px;
+}
+
 .menu {
   text-align: center;
   left: 7%;
@@ -20,8 +25,17 @@ body , html{
   background-color: #36393f
 }
 
+.gt button{
+  background-color: #36393f;
+  border: none;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
 .group-box button{
   padding: 5px;
+  margin-left: 1px;
+  margin-top: 2px;
 }
 
 .group-box label{
