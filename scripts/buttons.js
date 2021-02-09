@@ -1,4 +1,5 @@
 function add_button(){
+
     if ($('#buttons').children('div').length + 1 < 3){
       $("#buttons").append(`        <div id = "button" class = "discord">
     <label>Label:</label>
@@ -20,4 +21,8 @@ function remove_button(btn){
 function openGit(){
   var shell = require('electron').shell;
   shell.openExternal('https://github.com/Jansy-cc/edingo-rpc/');
+}
+function openAssets(){
+  var shell = require('electron').shell;
+  shell.openExternal(`https://discord.com/developers/applications/${$('#app_id').val().toString()}/rich-presence/assets`);
 }
