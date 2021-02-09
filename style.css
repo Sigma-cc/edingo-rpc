@@ -20,7 +20,6 @@ body , html{
 }
 .group-box {
   color: #b6b4b3;
-  border: 1px solid #040405;
   left: 7%;
   background-color: #36393f
 }
@@ -45,11 +44,15 @@ body , html{
 .btn-box{
   left: 200px;
 }
-
-.discord, textarea, input, button{
-  color: #b6b4b3;
-  background-color: #2f3136;
+.discord textarea, input{
   border: 1px solid #040405;
+  background-color: #2f3136;
+  color: #b6b4b3;
+}
+
+.discord , button{
+  color: #b6b4b3;
+  background-color: #36393f;
   border-radius: 3px;
 }
 
