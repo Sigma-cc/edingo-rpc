@@ -131,7 +131,12 @@ function set_presense(){
         rpc_client.request('SET_ACTIVITY', {
             pid: process.pid,
             activity: get_presence()
-        }).catch((error) => {
+        })
+        .then(() =>{
+            $("#upload1").append('<button class = "upload" onclick="openAssets()">(Click For Upload)</button>')
+            $("#upload2").append('<button class = "upload" onclick="openAssets()">(Click For Upload)</button>')
+        })
+        .catch((error) => {
             alert(`Invalid Update!\nReason:\n${error}`);
         });
 
@@ -141,5 +146,3 @@ function set_presense(){
         alert(`Invalid Update!\nReason:\n${error}`);
     });
 }
-
-
