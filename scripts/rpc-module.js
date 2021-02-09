@@ -133,8 +133,11 @@ function set_presense(){
             activity: get_presence()
         })
         .then(() =>{
-            $("#upload1").append('<button class = "upload" onclick="openAssets()">(Click For Upload)</button>')
-            $("#upload2").append('<button class = "upload" onclick="openAssets()">(Click For Upload)</button>')
+            if ($('#upload1').children('button').length == 0){
+                $("#upload1").append('<button class = "upload" onclick="openAssets()">(Click For Upload)</button>')
+                $("#upload2").append('<button class = "upload" onclick="openAssets()">(Click For Upload)</button>')
+            }
+
         })
         .catch((error) => {
             alert(`Invalid Update!\nReason:\n${error}`);
