@@ -21,9 +21,8 @@
     - Go to your [applications](https://discordapp.com/developers/applications/me).
     - Make a new application `The name of the app will be the main name for the rich presence`.
     - Copy `application id`, for  `Application ID` field in program.
-  
-# Running:
-After installing the modules and creating, run the program by write `npm start` to console.
+
+3. After installing the modules and creating, run the program by write `npm start` to console.
 
 # Fields:
 ```
